@@ -7,7 +7,5 @@ public interface Service {
     void startDriving(int truckId);
 
     void startRepair(int truckId);
-
-    void changeTruckState();
-
+    void changeTruckState(int truckId, int state);
 }
