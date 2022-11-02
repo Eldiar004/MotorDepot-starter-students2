@@ -23,6 +23,14 @@ public class Main {
     public static final Path WRITE_PATH1 = Paths.get("./driver.json");
 
     public static void main (String[] args) throws Exception {
+
+
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
         ServiceImpl service = new ServiceImpl();
         Scanner scanner = new Scanner(System.in);
         for (Truck truck : service.getTrucks()) {
